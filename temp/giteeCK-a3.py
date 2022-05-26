@@ -31,21 +31,21 @@ logger.addHandler(stream)
 
 
 #gitEE Token令牌
-ACCESS_TOKE = 'xxxxxxxxxxxxxxxx'
+ACCESS_TOKE = '1d6dc8332400c7039f2a353c12c239e5'
 #gitEE owner
-OWNER = 'xxxxxx'
+OWNER = 'imkiki'
 #gitEE repo
-REPO = 'xxxxxx'
+REPO = 'JDCKWebApp'
 #gitEE issue number
-NUMBER = 'xxxxxx'
+NUMBER = 'I59HOQ'
 
 #青龙登录账号
-QL_Login_name = 'admin'
+QL_Login_name = 'imkiki'
 #青龙登录密码
-QL_Login_password = 'admin'
+QL_Login_password = 'a86921686'
 
 # 127.0.0.1有的环境出现无法访问，最好还是改成本地ip
-URL_QL = 'http://192.168.0.155:5700'
+URL_QL = 'http://zrlove0222.f3322.net:9997'
 
 
 logger.info(f'当前脚本版本号：{scriptVersion}')
@@ -53,7 +53,7 @@ logger.info(f'当前脚本版本号：{scriptVersion}')
 def env(key):
     return os.environ.get(key)
     
-gcc =  env('gitee_ck_certificate')
+gcc =  env('1d6dc8332400c7039f2a353c12c239e5@https://gitee.com/imkiki/JDCKWebApp/issues/I59HOH@http://zrlove0222.f3322.net:9997'')
 if(gcc):
     try:
         gccs = gcc.split('@')
