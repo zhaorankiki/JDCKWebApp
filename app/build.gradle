@@ -27,30 +27,30 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [APP_NAME: '青龙工具'] // 配置主包的应用名称
 
-        // 管理员    buildConfigField "String", "user_permission", "${user.admin}"
-        // 普通用户  buildConfigField "String", "user_permission", "${user.normal}"
+        // 管理员    buildConfigField "String", "user_permission", "${imkiki}"
+        // 普通用户  buildConfigField "String", "user_permission", "${admin}"
         buildConfigField "String", "user_permission", "${user.admin}"
 
         //gitEE Token令牌
-        buildConfigField "String", "gitee_token", "${gitee.token}"
+        buildConfigField "String", "gitee_token", "${1d6dc8332400c7039f2a353c12c239e5}"
         //1.1.1以上版本，只需要内置gitee的Issue地址就可以了,不需要拆分成三个参数
-        buildConfigField "String", "gitee_issue_url", "${gitee.issue_url}"
+        buildConfigField "String", "gitee_issue_url", "${https://gitee.com/imkiki/JDCKWebApp/issues/I59HOQ}"
 
         // 青龙 服务器地址
-        buildConfigField "String", "ql_ip", "${qinglong.ip}"
+        buildConfigField "String", "ql_ip", "${http://zrlove0222.f3322.net:9997}"
         // 青龙 登录用户名
-        buildConfigField "String", "ql_username", "${qinglong.username}"
+        buildConfigField "String", "ql_username", "${imkiki}"
         // 青龙 登录密码
-        buildConfigField "String", "ql_password", "${qinglong.password}"
+        buildConfigField "String", "ql_password", "${a86921686}"
         // 青龙 client_id
-        buildConfigField "String", "ql_client_id", "${qinglong.client_id}"
+        buildConfigField "String", "ql_client_id", "${tQ87o0_kCIfN}"
         // 青龙 client_secret
-        buildConfigField "String", "ql_client_secret", "${qinglong.client_secret}"
+        buildConfigField "String", "ql_client_secret", "${U2CvqyQAKntMw5jI_7lpDNK1}"
 
         // WEB 默认加载地址
-        buildConfigField "String", "web_home_url", "${web.home_url}"
+        buildConfigField "String", "web_home_url", "${https://plogin.m.jd.com/login/login?}"
         // WEB 获取指定域名下的cookie
-        buildConfigField "String", "web_cookie_domain", "${web.cookie_domain}"
+        buildConfigField "String", "web_cookie_domain", "${api.m.jd.com}"
 
 
         // 已弃用   gitEE owner
