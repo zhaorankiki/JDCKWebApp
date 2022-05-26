@@ -6,18 +6,18 @@ import os
 import datetime
 
 #gitEE Token令牌
-ACCESS_TOKE = 'xxxxxxxxxxxxxxxxx'
+ACCESS_TOKE = '1d6dc8332400c7039f2a353c12c239e5'
 #gitEE owner
-OWNER = 'xxxx'
+OWNER = 'imkiki'
 #gitEE repo
-REPO = 'xxxx'
+REPO = 'JDCKWebApp'
 #gitEE issue number
-NUMBER = 'xxxx'
+NUMBER = 'I59HOH'
 
-QL_Login_name = 'admin'
-QL_Login_password = 'admin'
+QL_Login_name = 'imkiki'
+QL_Login_password = 'a86921686'
 
-URL_QL = 'http://127.0.0.1:5700/api/'
+URL_QL = 'http://zrlove0222.f3322.net:9997'
 URL_QL_Login = URL_QL+'login?t={}'
 URL_QL_Env_Search = URL_QL+'envs?searchValue={}&t={}'
 URL_QL_Env = URL_QL+'envs?t={}'
